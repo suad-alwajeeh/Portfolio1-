@@ -1,5 +1,6 @@
 
-*{font-family: 'Cairo', sans-serif;
+*{
+  font-family: 'Poppins', sans-serif;
 }
 html,body{
   margin: 0px;
@@ -89,40 +90,73 @@ display: table;
   background-repeat: no-repeat;
   background-position-x: left;
   position: relative;
-background-color: #f7fdfceb;
+background-color: #000;
 }
 .second-lyer {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #;
-  opacity: .8;
+  background-color: #000;
+  opacity: 0.7;
   top: 0px;
+  z-index: 1;
 }
 .head-text {
   position: absolute;
-  color: #a18ba2;
-  font-size: 20px;
-  top: 50vh;
+  color: #fff;
+  font-size: 40px;
+  top: 45vh;
+  z-index: 2;
+  font-weight: 900;
 }
 h1,h3{
     text-align: center;
 }
 .head-text h1 {
   margin-left: 5vh;
-  color: rgb(137, 110, 120);
-  font-size: 28px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 4rem;
+}
+.head-text h3 {
+  margin-left: 3vh;
+  color: #fff;
+  font-size: 29px;
+  font-weight: 408;
+}
+.lan-bar {
+  position: fixed;
+  top: 88vh;
+  left: 2%;
+  z-index: 2;
+}
+.lan-bar a {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  margin: 0px;
+transition: ease 1s;
+transform: rotate(270deg);
+font-weight: bolder;
+}
+.lan-bar a:hover {
+  color:#fff;
+  transform: rotate(360deg);
+
 }
 
 .icon-bar {
   position: fixed;
   top: 75vh;
   right: 1%;
+  z-index: 2;
 }
 .icon-bar a {
   display: block;
   text-align: center;
-  color: #896e78ed;
+  color: #fff;
   font-size: 20px;
   margin: 0px;
       margin-bottom: 0px;
@@ -130,7 +164,7 @@ h1,h3{
 transition: ease 1s;
 }
 .icon-bar a:hover {
-  color:#6f4957ed;
+  color:#fff;
   transform: rotate(360deg);
 
 }
@@ -167,6 +201,7 @@ padding: 5px;}
   transition: ease .5s;
 }
 .link:hover {
+  color: #fff;
   font-weight: bold;
   text-decoration: line-through;
 }
