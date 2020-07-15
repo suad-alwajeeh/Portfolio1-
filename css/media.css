@@ -85,18 +85,17 @@ display: table;
 .banner {
   height: 100vh;
     max-height: 100vh;
-  background-image: url('../img/green-flower-bouquet-on-white-background-961402.jpg');
+  background-image: url('../img/woman-in-yellow-shirt-leaning-against-blue-wall-3772509.jpg');
   background-repeat: no-repeat;
   background-position-x: left;
   position: relative;
 background-color: #f7fdfceb;
-background-size: cover;
 }
 .second-lyer {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #95687336;
+  background-color: #;
   opacity: .8;
   top: 0px;
 }
@@ -140,44 +139,13 @@ transition: ease 1s;
   margin-left: 75px;
   font-size: 30px;
 }
-/**************************start grid system***************************/
-[class*="col-"]{float: left;box-sizing: border-box; margin-top:0px}
-.col-1{width:8.33%;}                          
-.col-2{width:16.66%;}                          
-.col-3{width:25%;}                          
-.col-4{width:33.32%;}                          
-.col-5{width:41.65%;} 
-.col-6{width:50%;} 
-.col-7{width:58.35%;} 
-.col-8{width:66.68%;} 
-.col-9{width:75%;} 
-.col-10{width:83.34%;} 
-.col-11{width:91.67%;} 
-.col-12{width:100%;} 
+
 
 .navbar-btn  {
   float: right;
   background-color: transparent;
   border: 0px;
   margin-right: 3px;
-}
-.navbar-btn img {
-  width: 42px;
-  height: 47px;
-}
-.collapse1{
-  cursor: pointer;
-  display: block;
-  background:transparent;
-}
-.collapse1 + input{
-  display: none; /* hide the checkboxes */
-}
-.collapse1 + input  + div{
-  display:none;
-}
-.collapse1 + input:checked + div{
-  display:block;
 }
 
 .navbar-logo{
@@ -195,7 +163,7 @@ padding: 5px;}
 .link {
   text-align: center;
   text-decoration: none;
-  color: #958b7f;
+  color: #fff;
   transition: ease .5s;
 }
 .link:hover {

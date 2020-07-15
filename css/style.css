@@ -30,11 +30,20 @@ body{flex-direction: column;}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) {
+  .navbar-collapse{
+    position: relative;
+    left: 59%;
+    bottom: 13%;
+}
     } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  
+ .navbar-collapse {
+    position: relative;
+    left: 59%;
+    bottom: 13%;
+}  
 }
 
 
