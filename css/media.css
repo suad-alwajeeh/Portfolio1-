@@ -55,19 +55,18 @@ label{
   margin-left: ;
 }
 .mybtn {
-  background-color: #fbfbfb;
-  border-color: #d2b2b7;
-  color: #a7a7a7;
-  width: 147px;
-  height: 43px;
-  border-radius: 20px;
-  font-weight: bold;
+  background-color: #3dbb8b;
+  border-color: #3dbb8b;
+  color: #fff;
   transition: linear 1s;
+  border-radius: 0%;
 }
 .mybtn:hover{ 
-  background-color:#d2b2b7 ;
+  background-color:#fff ;
+  border-color: #3dbb8b;
+
    box-shadow: 0px 0px 9px 6px #eaeaea;
-   color: #eaeaea;
+   color: #3dbb8b;
 }
 .row::after{
 content: "";
@@ -209,28 +208,25 @@ padding: 5px;}
 #li {display: inline; padding: 24px;}
 .p1 {  
   text-align: center;
-  line-height: 2;
-  font-size: 19px;
-  padding: 23px;
-  color: #755274;
-  margin-left: 8%;
+  line-height: 2rem;
+  font-size: 15px;
+  color: #6a6868;
 }
 .p2 {
-  color: #967c9de8;
   font-size: x-large;
   text-align: center;
   position: relative;
-top: 29%;
+top: 45%;
 }
 .div2 {
-height: 40%;
+height: 40vh;
   background-color: #f2ece0;
   transition: ease .3s;
 
 }
 .div1 {
   background: #d2b2b7;
-  height: 40%;
+  height: 40vh;
   transition: all .3s;
 }
 .div1:hover{
