@@ -180,6 +180,7 @@ transition: ease 1s;
   border: 0px;
   margin-right: 3px;
 }
+label{color: #6f7d84;}
 
 .navbar-logo{
   font-size: 26px;
@@ -196,11 +197,11 @@ padding: 5px;}
 .link {
   text-align: center;
   text-decoration: none;
-  color: #fff;
-  transition: ease .5s;
+  color: #eeedec;
+    transition: ease .5s;
 }
 .link:hover {
-  color: #fff;
+  color: #eeedec;
   font-weight: bold;
   text-decoration: line-through;
 }
